@@ -11,5 +11,5 @@ app.get("/", (req, res) => {
 app.use("/api/auth", authRoute);
 
 app.listen(3000, () => {
-  console.log(`🚀 Server lancé sur http://localhost:3000 🚀`);
+  console.log(`🚀 Server lancé sur http://localhost:3001 🚀`);
 });
