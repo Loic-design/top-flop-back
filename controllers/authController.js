@@ -7,8 +7,7 @@ export async function register(req, res) {
     const user = await registerUser(name, email, password);
 
     return res.status(201).json({
-      message: "Compte créé avec succès",
-      user,
+      message: "Compte créé avec succès"
     });
   } catch (error) {
     return res.status(error.status || 500).json({
