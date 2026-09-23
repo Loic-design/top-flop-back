@@ -52,7 +52,7 @@ export async function loginUser(email, password) {
       id: user.id,
       email: user.email,
     },
-    process.env.JWT_SECRET,
+    process.env.JWT_SECRET
   );
 
   return token;
